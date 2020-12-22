@@ -1,0 +1,36 @@
+.avatar {
+  position: relative;
+  border: none;
+  margin: 1rem 1rem 0rem 1rem;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .avatar-photo {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+  }
+  .avatar-name {
+    padding-left: 0.5rem;
+  }
+  .avatar-dot {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .avatar-dot--grey {
+    background-color: rgb(185, 181, 181);
+  }
+  .avatar-dot--orange {
+    background-color: rgb(245, 138, 38);
+  }
+  .avatar-dot--green {
+    background-color: rgb(36, 211, 36);
+  }
+}
